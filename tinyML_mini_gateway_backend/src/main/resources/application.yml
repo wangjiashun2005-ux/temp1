@@ -1,0 +1,15 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: tinyml-gateway-backend
+  main:
+    banner-mode: "off"
+
+logging:
+  level:
+    root: info
+    com.tinyml.gateway: info
+  pattern:
+    console: "%d{HH:mm:ss.SSS} %-5level [%thread] %logger{0} - %msg%n"
